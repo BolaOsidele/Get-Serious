@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life is Too Short</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>I made and coded this today with the help of AI, LOL. Try it. Bola x</h1>
+    <form id="lifeForm">
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" required>
+      <label for="country">Country:</label>
+      <select id="country" required>
+        <option value="79">United Kingdom (79 years)</option>
+        <option value="81">United States (81 years)</option>
+            <option value="83">Japan (83 years)</option>
+            <option value="74">India (74 years)</option>
+            <option value="82">Australia (82 years)</option>
+            <option value="76">Brazil (76 years)</option>
+            <!-- Add more countries as needed -->
+          </select>
+        <!-- Add more countries as needed -->
+      </select>
+      <button type="submit">Calculate</button>
+      <button type="reset">Reset</button>
+    </form>
+    <div id="results" class="hidden">
+      <h2>Your Remaining Time:</h2>
+      <p>Months: <span id="months"></span></p>
+      <p>Weeks: <span id="weeks"></span></p>
+      <p>Days: <span id="days"></span></p>
+      <p>Hours: <span id="hours"></span></p>
+      <p>Minutes: <span id="minutes"></span></p>
+      <p>Seconds: <span id="seconds"></span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
